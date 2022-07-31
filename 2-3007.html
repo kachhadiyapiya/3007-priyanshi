@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript For Loop</h2>
+
+<p id="demo"></p>
+
+<script>
+const flowers = ["ROSE", "SUNFLOWER", "JASMINE", "BLUEBALL"];
+let i = 0;
+let len = flowers.length;
+let text = "";
+
+for (; i < len; i++) {
+  text += flowers[i] + "<br>";
+}
+
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>
